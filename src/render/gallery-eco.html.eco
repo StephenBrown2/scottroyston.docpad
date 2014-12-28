@@ -1,0 +1,15 @@
+---
+layout: content
+title: Gallery
+topNav: true
+order: 4
+associatedFilesPath: 'gallery'
+---
+
+<% for file in @getDocument().getAssociatedFiles().toJSON(): %>
+<p>
+    <h3><a href="<%= file.url %>"><%= file.title or file.name %> - <%= @[file.basename].arttitle %></a></h3>
+    <img src="<%= @getThumbnail(file.url, 'medium') %>" alt="<%= file.title or file.name %>" />
+    <!--<img src="<%= file.url %>" title="<%= file.title or file.name %>" alt="<%= file.title or file.name %>" />-->
+</p>
+<% end %>

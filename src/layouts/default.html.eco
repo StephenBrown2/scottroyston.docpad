@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<!-- Standard Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- Site Properities -->
+	<title><%= @getPreparedTitle() %></title>
+	<meta name="description" content="<%= @getPreparedDescription() %>" />
+	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+
+	<!-- DocPad Meta -->
+	<%- @getBlock('meta').toHTML() %>
+
+	<!-- DocPad Styles + Our Own -->
+	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+</head>
+<body>
+	<!--[if lt IE 8]>
+	<p class="browsehappy">You are using an <a href="http://outdatedbrowser.com/"><strong>outdated</strong></a> <a href="http://whatbrowser.org/">browser</a>. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+
+	<header>
+	<div class="wide"><a href="<%= @site.url %>"><img src="/images/scott_royston_black_letters.jpg" alt="<%- @site.title %>"</img></a></div>
+	<nav class="clearfix align-center">
+		<ul class="clearfix">
+				<% for page in @getCollection('topNav').sortArray(order: 1): %>
+				<% if @document.url is page.url: %>
+				<li class="active">
+				<% else: %>
+				<li>
+				<% end %>
+				<a href="<%= page.url %>"><span><%- page.title or page.name %></span></a>
+				</li>
+				<% end %>
+			</ul>
+		<a href="#" id="pull">Menu</a>
+	</nav>
+	</header>
+	<article>
+		<%- @content %>
+	</article>
+	<footer>
+	<div id="badges">
+	<a href="https://www.nearlyfreespeech.net/"><img
+		src="https://www.nearlyfreespeech.net/logos/nfsn80x15logo.gif" border="0"
+		alt="NearlyFreeSpeech" title="NearlyFreeSpeech"/></a>
+	<a href="https://www.startssl.com/"><img
+		src="https://www.startssl.com/img/startcom_secured_lock_80x15.png" border="0"
+		alt="Free SSL Secured By StartCom" title="Free SSL Secured By StartCom"></a>
+  </div>
+	</footer>
+	<!-- DocPad Scripts + Our Own -->
+	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+</body>
+</html>

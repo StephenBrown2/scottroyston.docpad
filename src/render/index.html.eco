@@ -1,0 +1,51 @@
+---
+layout: 'front'
+title:
+---
+
+<div class="front">
+  <div class="main">
+  <div class="right top">
+    <a href="<%= @site.url %>"><img alt="<%- @getPreparedTitle() %>" src="/images/scott_royston_studio_grey_letters_on_black.jpg"></a>
+
+    <div style="clear: both;"></div>
+
+    <% for page in @getCollection('topNav').findAll({order: 1}).toJSON(): %>
+      <a class="small" href="<%= page.url %>"><img src="/images/head.jpg"></a>
+    <% end %>
+
+    <div style="clear: both;"></div>
+
+    <div style="display: none; color:white; margin:2.5%">
+      Tap image to enter.
+    </div>
+  </div>
+
+  <div class="left top">
+    <% for page in @getCollection('topNav').findAll({order: 1}).toJSON(): %>
+      <a href="<%= page.url %>"><img src="/images/front.jpg"></a>
+    <% end %>
+  </div>
+
+  <div class="right">
+    <div style="width:80%; margin: auto;">
+      <p style="text-align: left; text-decoration: underline"><strong>James 1:17</strong></p>
+
+      <p><em>"Every good gift and every perfect gift is from above, and comes down from the Father of lights, with whom there is no variation or shadow of turning."</em></p>
+    </div>
+  </div>
+  </div>
+
+    <div style="clear: both;"></div>
+
+  <footer>
+    <div class="left">
+      Site designed by: Paul-Gerhard M. Otto<br>
+      Site modified and maintained by: Phil Heuman, Stephen Brown II
+    </div>
+
+    <div class="right">
+      &copy; Scott B. Royston. All rights reserved.· Images on this website may not be downloaded, copied, or reproduced by any means without the express written permission of the artist.
+    </div>
+  </footer>
+</div>
