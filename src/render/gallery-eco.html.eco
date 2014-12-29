@@ -1,7 +1,7 @@
 ---
 layout: content
 title: Gallery
-topNav: true
+topNav: false
 order: 4
 associatedFilesPath: 'gallery'
 ---
