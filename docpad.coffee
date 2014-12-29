@@ -23,14 +23,7 @@ docpadConfig = {
                     h: 500
         coffeemugg:
             options:
-                plugins:
-                    [
-                        (context) ->
-                            context["getData"] = (data) ->
-                                @ul ->
-                                    for datum in data
-                                        @li datum
-                    ]
+                format: true
 
     # =================================
     # Template Data
