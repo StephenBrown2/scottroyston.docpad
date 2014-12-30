@@ -22,7 +22,7 @@
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 </head>
-<body style="background-color: black;">
+<body style="background-color: black; color: white; font-size: 14px;">
 	<!--[if lt IE 8]>
 	<p class="browsehappy">You are using an <a href="http://outdatedbrowser.com/"><strong>outdated</strong></a> <a href="http://whatbrowser.org/">browser</a>. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 	<![endif]-->

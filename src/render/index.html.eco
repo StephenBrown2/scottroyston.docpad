@@ -16,8 +16,8 @@ title:
 
     <div style="clear: both;"></div>
 
-    <div style="display: none; color:white; margin:2.5%">
-      Tap image to enter.
+    <div style="font-size:10px; color: rgb(190,190,190); margin:2.5%">
+      Click image to enter.
     </div>
   </div>
 
