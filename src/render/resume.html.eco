@@ -5,4 +5,8 @@ topNav: true
 order: 2
 ---
 
-
+<ul>
+<% for assoc in @affiliations: %>
+  <li><%= assoc.organization %></li>
+<% end %>
+</ul>
