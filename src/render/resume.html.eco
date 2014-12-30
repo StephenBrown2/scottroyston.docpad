@@ -5,8 +5,30 @@ topNav: true
 order: 2
 ---
 
-<ul>
-<% for assoc in @affiliations: %>
-  <li><%= assoc.organization %></li>
+<h2>Education</h2>
+
+<h2>Selected Group Shows</h2>
+
+<h2>Awards</h2>
+
+<h2>One-Man Shows</h2>
+
+<h2>Corporate and Private Collections</h2>
+
+<h2>Bibliography</h2>
+<dl>
+<% sortedBib = @bibliography.sort (a, b) -> b.date - a.date %>
+<% for b in sortedBib: %>
+  <dt><%= b.year %></dt>
+  <dd><%- b.citation %></dd>
 <% end %>
-</ul>
+</dl>
+
+<h2>Affiliations</h2>
+<dl>
+<% sortedAff = @affiliations.sort (a, b) -> b.start - a.start %>
+<% for aff in sortedAff: %>
+  <dt><%= aff.start %> - <%= aff.end %></dt>
+  <dd><%= aff.affiliation %>, <a href="<%= aff.website %>"><%= aff.organization %></a></dd>
+<% end %>
+</dl>

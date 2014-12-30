@@ -168,6 +168,9 @@ docpadConfig = {
                     res.redirect(newUrl+req.url, 301)
                 else
                     next()
+
+    regenerateDelay: 10    # default: 100
+
 }
 
 # Export our DocPad Configuration
