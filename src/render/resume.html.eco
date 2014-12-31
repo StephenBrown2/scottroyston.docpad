@@ -17,6 +17,13 @@ order: 2
 <h2>Selected Group Shows</h2>
 
 <h2>Awards</h2>
+<dl>
+<% sortedAwards = @awards.sort (a, b) -> b.date - a.date %>
+<% for a in sortedAwards: %>
+  <dt><%= a.year %></dt>
+  <dd><%= a.award %>, <%- a.event %><% if a.sponsor?: %>, <%= a.sponsor %><% end %></dd>
+<% end %>
+</dl>
 
 <h2>One-Man Shows</h2>
 <dl>
