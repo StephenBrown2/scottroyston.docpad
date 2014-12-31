@@ -24,7 +24,7 @@ order: 2
 </dl>
 
 <h2>Awards</h2>
-<dl>
+<dl> # TODO: Match dates of awards with shows
 <% sortedAwards = @awards.sort (a, b) -> b.date - a.date %>
 <% for a in sortedAwards: %>
   <dt><%= a.year %></dt>
@@ -33,7 +33,7 @@ order: 2
 </dl>
 
 <h2>One-Man Shows</h2>
-<dl>
+<dl> # TODO: find dates of solo shows
 <% sortedSolo = @solo_shows.sort (a, b) -> b.date - a.date %>
 <% for s in sortedSolo: %>
   <dt><%= s.year %></dt>
@@ -52,7 +52,7 @@ order: 2
 <dl>
 <% sortedBib = @bibliography.sort (a, b) -> b.date - a.date %>
 <% for b in sortedBib: %>
-  <dt><%= b.year %></dt>
+  <dt><%= b.date.getFullYear() %></dt>
   <dd><%- b.citation %></dd>
 <% end %>
 </dl>
