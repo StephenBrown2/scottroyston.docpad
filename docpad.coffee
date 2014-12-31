@@ -24,6 +24,9 @@ docpadConfig = {
         coffeemugg:
             options:
                 format: true
+        ghpages:
+            deployRemote: 'origin'
+            deployBranch: 'dploy'
 
     # =================================
     # Template Data
