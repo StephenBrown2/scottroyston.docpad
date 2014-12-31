@@ -28,7 +28,7 @@
 	<![endif]-->
 
 	<header>
-	<div class="wide"><a href="<%= @site.url %>"><img src="/images/scott_royston_black_letters.jpg" alt="<%- @site.title %>"</img></a></div>
+	  <div class="wide"><a href="<%= @site.url %>"><img src="<%= @getThumbnail('images/scott_royston_gimp_pixlr_bodini_xt_medium_150.png', {h: 100, w: 600} ) %>" alt="<%- @site.title %>"</img></a></div>
 	<nav class="clearfix align-center">
 		<ul class="clearfix">
 				<% for page in @getCollection('topNav').sortArray(order: 1): %>

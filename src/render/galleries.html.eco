@@ -64,5 +64,6 @@ associatedFilesPath: 'logos'
 
 <p class="bigtext">
 <strong>Scott B. Royston</strong><br />
-<a href="http://www.scottroyston.com/">http://www.scottroyston.com</a>
+<a href="http://www.scottroyston.com/">
+<img src="<%= @getThumbnail('images/scott_royston_gimp_pixlr_bodini_xt_medium_150.png', {h: 100, w: 600} ) %>"></a>
 </p>
