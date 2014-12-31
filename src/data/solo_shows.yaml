@@ -1,36 +1,42 @@
 ---
 -
-  year: 1997
+  dateBegin: 1997-01-01
+  dateEnd: 1997-12-31
   show: World Trade Center
   gallery: Inner Harbor
   city: Baltimore
   state: MD
 -
-  year: 1999
+  dateBegin: 1999-01-01
+  dateEnd: 1999-12-31
   show: Harbor Court Hotel
   gallery: Inner Harbor
   city: Baltimore
   state: MD
 -
-  year: 2000
-  show: Classical Realism
+  dateBegin: 2000-09-24
+  dateEnd: 2000-10-08
+  show: Classical Realism/Still Life Traditions
   gallery: McBride Gallery
   city: Annapolis
   state: MD
 -
-  year: 2003
+  dateBegin: 2003-04-27
+  dateEnd: 2003-05-11
   show: Dutch Old Master Still Lifes
   gallery: McBride Gallery
   city: Annapolis
   state: MD
 -
-  year: 2004
+  dateBegin: 2004-04-16
+  dateEnd: 2004-05-08
   show: Classical Still Life
   gallery: Somerville Manning Gallery
   city: Greenville
   state: DE
 -
-  year: 2007
+  dateBegin: 2007-03-25
+  dateEnd: 2007-04-08
   show: Dutch Old Master Still Life: Then and Now
   gallery: McBride Gallery
   city: Annapolis

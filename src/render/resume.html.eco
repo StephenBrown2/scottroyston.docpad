@@ -33,10 +33,10 @@ order: 2
 </dl>
 
 <h2>One-Man Shows</h2>
-<dl> # TODO: find dates of solo shows
-<% sortedSolo = @solo_shows.sort (a, b) -> b.date - a.date %>
+<dl>
+<% sortedSolo = @solo_shows.sort (a, b) -> b.dateBegin - a.dateBegin %>
 <% for s in sortedSolo: %>
-  <dt><%= s.year %></dt>
+  <dt><%= s.dateBegin.getFullYear() %></dt>
   <dd><%= s.show %>, <%= s.gallery %>, <%= s.city %>, <%= s.state %></dd>
 <% end %>
 </dl>
