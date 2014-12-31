@@ -6,6 +6,13 @@ order: 2
 ---
 
 <h2>Education</h2>
+<dl>
+<% sortedEdu = @education.sort (a, b) -> b.start - a.start %>
+<% for e in sortedEdu: %>
+  <dt><%= e.start %> - <%= e.end %></dt>
+  <dd><%= e.institution %><% if e.city?: %>, <%= e.city %>, <%= e.state %><% end %></dd>
+<% end %>
+</dl>
 
 <h2>Selected Group Shows</h2>
 
