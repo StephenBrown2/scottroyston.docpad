@@ -17,7 +17,7 @@ associatedFilesPath: 'logos'
 <strong>Greenhouse Gallery</strong><br />
 <a href="http://artfromgreenhouse.com" title="http://greenhousegallery.com">
 <!--<img src="http://artfromgreenhouse.com/images/logo.png">-->
-<img src="<%= @getThumbnail('associated-files/logos/greenhouse_gallery.png', {h: 100, w: 600} ) %>"></a>
+<img src="<%= @getThumbnail('associated-files/logos/greenhouse_gallery.jpg', {h: 100, w: 600} ) %>"></a>
 </p>
 
 <p class="bigtext">
@@ -45,7 +45,7 @@ associatedFilesPath: 'logos'
 <strong>Maryland Art Place</strong><br />
 <a href="http://www.mdartplace.org">
 <!--<img style="background-color: rgb(190, 190, 190);" src="http://www.mdartplace.org/images/logo.png">-->
-<img style="background-color: rgb(190, 190, 190);" src="<%= @getThumbnail('associated-files/logos/maryland_art_place.png', {h: 100, w: 600} ) %>"></a>
+<img src="<%= @getThumbnail('associated-files/logos/maryland_art_place.jpg', {h: 100, w: 600} ) %>"></a>
 </p>
 
 <p class="bigtext">
