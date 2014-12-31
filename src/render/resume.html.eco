@@ -15,6 +15,13 @@ order: 2
 </dl>
 
 <h2>Selected Group Shows</h2>
+<dl>
+<% sortedShows = @group_shows.sort (a, b) -> b.dateBegin - a.dateBegin %>
+<% for g in sortedShows: %>
+  <dt><%= g.dateBegin.getFullYear() %></dt>
+  <dd><%= g.aventName %>, <%= g.venue %><% if g.venueCity?: %>, <%= g.venueCity %>, <%= g.venueState %><% end %></dd>
+<% end %>
+</dl>
 
 <h2>Awards</h2>
 <dl>
