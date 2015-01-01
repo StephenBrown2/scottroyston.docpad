@@ -24,11 +24,11 @@ order: 2
 </dl>
 
 <h2>Awards</h2>
-<dl> # TODO: Match dates of awards with shows
+<dl>
 <% sortedAwards = @awards.sort (a, b) -> b.date - a.date %>
 <% for a in sortedAwards: %>
-  <dt><%= a.year %></dt>
-  <dd><%= a.award %>, <%- a.event %><% if a.sponsor?: %>, <%= a.sponsor %><% end %></dd>
+  <dt><%= a.date.getFullYear() %></dt>
+  <dd><%= a.award %>, <% if a.website?: %><a href="<%- a.website %>"><% end %><%- a.event %><% if a.website?: %></a><% end %><% if a.sponsor?: %>, <%= a.sponsor %><% end %></dd>
 <% end %>
 </dl>
 
