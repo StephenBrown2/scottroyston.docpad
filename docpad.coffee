@@ -80,6 +80,7 @@ docpadConfig = {
                 '/scripts/script.js'
             ]
 
+            themeBgColor: "#498283"
 
         # -----------------------------
         # Helper Functions
