@@ -108,6 +108,10 @@ docpadConfig = {
         getData: (dataKey) =>
             @data["#{dataKey}"].toJSON()
 
+        getTitleCap: (titleString) ->
+            capitalize = require('title-capitalization')
+            return capitalize(titleString.toString())
+
     # =================================
     # Collections
 

@@ -15,7 +15,8 @@
     "docpad-plugin-eco": "~2.1.0",
     "docpad-plugin-ghpages": "~2.4.3",
     "docpad-plugin-imagin": "~2.0.1",
-    "docpad-plugin-marked": "~2.2.1"
+    "docpad-plugin-marked": "~2.2.1",
+    "title-capitalization": "~0.0.1"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.6.0"
