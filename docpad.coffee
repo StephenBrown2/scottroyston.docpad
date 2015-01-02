@@ -65,6 +65,7 @@ docpadConfig = {
                 '/vendor/normalize.css'
                 '/vendor/h5bp.css'
                 '/styles/style.css'
+                '/styles/art.css'
             ]
 
             # The website's scripts
@@ -77,6 +78,7 @@ docpadConfig = {
 
                 '/vendor/log.js'
                 '/vendor/modernizr.js'
+                '/vendor/isotope.js'
                 '/scripts/script.js'
             ]
 

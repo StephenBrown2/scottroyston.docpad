@@ -1,0 +1,491 @@
+---
+apricots:
+  title: Apricots
+  sold: true
+  height: 7
+  width: 9
+asian_solitude:
+  title: Asian Solitude
+  sold: true
+  height: 14
+  width: 7
+a_touch_of_southwest:
+  title: A Touch of Southwest
+  sold: true
+  height: 12
+  width: 14
+beach_daisies:
+  title: Beach Daisies
+  sold: true
+  height: 13
+  width: 8
+beetle_collection:
+  title: Beetle Collection
+  sold: true
+  height: 8
+  width: 12
+big_reds:
+  title: Big Reds
+  sold: true
+  height: 7¾
+  width: 9¾
+birds_of_a_feather:
+  title: Birds of a Feather
+  sold: false
+  height: 16
+  width: 20
+book_and_daisies:
+  title: Book and Daisies
+  sold: true
+  height: 12
+  width: 10
+books_of_knowledge:
+  title: Books of Knowledge
+  sold: true
+  height: 12
+  width: 10¼
+box_of_cherries:
+  title: Box of Cherries
+  sold: true
+  height: 10
+  width: 9
+broken:
+  title: Broken
+  sold: true
+  height: 20¼
+  width: 10
+butterfly_collection:
+  title: Butterfly Collection
+  sold: true
+  height: 23
+  width: 16
+chatter_box:
+  title: Chatter Box
+  sold: true
+  height: 9
+  width: 7
+chilis:
+  title: Chilis
+  sold: false
+  height: 6
+  width: 8
+chinese_tulip_magnolias:
+  title: Chinese Tulip Magnolias
+  sold: true
+  height: 30
+  width: 24
+circle_of_life:
+  title: Circle of Life
+  sold: true
+  height: 50
+  width: 40
+clownin_around:
+  title: Clownin' Around
+  sold: false
+  height: 8
+  width: 10
+colors_of_freedom:
+  title: Colors of Freedom
+  sold: true
+  height: 36
+  width: 24
+concerto_of_petunias:
+  title: Concerto of Petunias
+  sold: true
+  height: 24
+  width: 20
+cyclamen:
+  title: Cyclamen
+  sold: true
+  height: 12
+  width: 18
+daisies_for_lovey:
+  title: Daisies for Lovey
+  sold: true
+  height: 18
+  width: 10
+daisies_in_red:
+  title: Daisies in Red
+  sold: true
+  height: 18
+  width: 10
+dark_on_light:
+  title: Dark on Light
+  sold: false
+  height: 8
+  width: 10
+delft_and_holly:
+  title: Delft and Holly
+  sold: true
+  height: 9
+  width: 7
+delta_fire:
+  title: Delta Fire
+  sold: true
+  height: 10
+  width: 12
+earth_tones:
+  title: Earth Tones
+  sold: true
+  height: 12
+  width: 12½
+eggs:
+  title: Eggs
+  sold: true
+  height: 4
+  width: 8
+eggs_to_dye_for:
+  title: Eggs to Dye For
+  sold: true
+  height: 13
+  width: 18
+equally_yoked:
+  title: Equally Yoked
+  sold: true
+  height: 12
+  width: 9
+finding_the_center_of_interest:
+  title: Finding the Center of Interest
+  sold: true
+  height: 17
+  width: 14
+floral_for_lovey:
+  title: Floral for Lovey
+  sold: true
+  height: 20
+  width: 16
+floral_gardens:
+  title: Floral Gardens
+  sold: true
+  height: 24
+  width: 20
+floral_in_niche:
+  title: Floral in Niche
+  sold: true
+  height: 24
+  width: 20
+from_knowledge_comes_wisdom:
+  title: From Knowledge Comes Wisdom
+  sold: true
+  height: 16
+  width: 12
+goin_bananas:
+  title: Goin' Bananas
+  sold: true
+  height: 8½
+  width: 8
+going_classical:
+  title: Going Classical
+  sold: true
+  height: 12
+  width: 10¼
+gourds:
+  title: Gourds
+  sold: false
+  height: 7
+  width: 8
+habaneros:
+  title: Habaneros
+  sold: true
+  height: 7¾
+  width: 9¾
+hands_across_america:
+  title: Hands Across America
+  sold: true
+  height: 16
+  width: 20
+hanging_tassels:
+  title: Hanging Tassels
+  sold: true
+  height: 12
+  width: 9
+he_got_game:
+  title: He Got Game
+  sold: false
+  height: 26
+  width: 22
+hidden_treasures:
+  title: Hidden Treasures
+  sold: true
+  height: 4
+  width: 8
+homage_to_van_huysum:
+  title: Homage To Van Huysum
+  sold: true
+  height: 30
+  width: 22
+hopi_kachina:
+  title: Hopi Kachina
+  sold: false
+  height: 12
+  width: 6
+iris_in_black:
+  title: Iris In Black
+  sold: true
+  height: 36
+  width: 12
+its_tea_time:
+  title: It's Tea Time
+  sold: true
+  height: 13 <sup>13</sup>⁄<sub>16</sub>
+  width: 16
+jemez_wedding_vase:
+  title: Jemez Wedding Vase
+  sold: true
+  height: 14
+  width: 11
+learning_about_shells:
+  title: Learning About Shells
+  sold: true
+  height: 16
+  width: 20
+lemon_twist:
+  title: Lemon Twist
+  sold: true
+  height: 12
+  width: 7¾
+life_and_literature:
+  title: Life and Literature
+  sold: true
+  height: 9
+  width: 12
+lil_woven_treasure:
+  title: Li'l Woven Treasure
+  sold: true
+  height: 6
+  width: 8
+love_bug:
+  title: Love Bug
+  sold: true
+  height: 6¾
+  width: 3¾
+marble_box:
+  title: Marble Box
+  sold: true
+  height: 7
+  width: 7½
+masking_sadness:
+  title: Masking Sadness
+  sold: true
+  height: 12
+  width: 31
+memoirs_of_a_dutch_master:
+  title: Memoirs of a Dutch Master
+  sold: true
+  height: 24
+  width: 20
+moccasins:
+  title: Moccasins
+  sold: true
+  height: 8
+  width: 8
+mussels:
+  title: Mussels
+  sold: true
+  height: 16
+  width: 14
+mystery_of_the_dancing_men:
+  title: Mystery Of The Dancing Men
+  sold: true
+  height: 22
+  width: 32
+nampeyo:
+  title: Nampeyo
+  sold: false
+  height: 7
+  width: 9
+pairs:
+  title: Pairs
+  sold: true
+  height: 6
+  width: 12
+palate_pleasers:
+  title: Palate Pleasers
+  sold: true
+  height: 12
+  width: 11
+pansies_and_delfts:
+  title: Pansies and Delfts
+  sold: false
+  height: 6
+  width: 7
+pansy_pickins:
+  title: Pansy Pickin's
+  sold: true
+  height: 10
+  width: 12
+pepper_basket:
+  title: Pepper Basket
+  sold: true
+  height: 10
+  width: 10
+petunias:
+  title: Petunias
+  sold: true
+  height: 12
+  width: 9
+polychrome_basket:
+  title: Polychrome Basket
+  sold: true
+  height: 9
+  width: 12
+propitiation:
+  title: Propitiation
+  sold: false
+  height: 20
+  width: 12
+red_beauties:
+  title: Red Beauties
+  sold: true
+  height: 20¼
+  width: 10
+reflections_of_childhood:
+  title: Reflections of Childhood
+  sold: true
+  height: 24
+  width: 20
+regular_or_decaf:
+  title: Regular or Decaf
+  sold: true
+  height: 10
+  width: 10½
+rose_of_sharon:
+  title: Rose of Sharon
+  sold: true
+  height: 6
+  width: 6
+roses:
+  title: Roses
+  sold: true
+  height: 12
+  width: 10
+sea_shell_cabinet:
+  title: Sea Shell Cabinet
+  sold: true
+  height: 19½
+  width: 31½
+sea_shells:
+  title: Sea Shells
+  sold: true
+  height: 15
+  width: 13
+shallots:
+  title: Shallots
+  sold: false
+  height: 9¾
+  width: 7¾
+shell_and_grapes:
+  title: Shell and Grapes
+  sold: false
+  height: 6½
+  width: 9½
+shells_under_glass:
+  title: Shells under Glass
+  sold: true
+  height: 15⅜
+  width: 12
+simple_splendor:
+  title: Simple Splendor
+  sold: false
+  height: 14
+  width: 11
+skylite_cosmo:
+  title: Skylite Cosmo
+  sold: true
+  height: 12
+  width: 8
+southwest_white_iris:
+  title: Southwest White Iris
+  sold: true
+  height: 24
+  width: 13
+spring_elegance:
+  title: Spring Elegance
+  sold: false
+  height: 20
+  width: 10
+strings_attached:
+  title: Strings Attached
+  sold: true
+  height: 20
+  width: 14
+summertime_thirst_quencher:
+  title: Summertime Thirst Quencher
+  sold: true
+  height: 19
+  width: 16
+sunny_side_up:
+  title: Sunny Side Up
+  sold: true
+  height: 9
+  width: 7
+tassel_trio:
+  title: Tassel Trio
+  sold: true
+  height: 12¾
+  width: 8½
+tea_setting:
+  title: Tea Setting
+  sold: true
+  height: 18
+  width: 12
+thats_a_bingo:
+  title: That's a Bingo
+  sold: false
+  height: 13
+  width: 10¾
+the_giving_tree:
+  title: The Giving Tree
+  sold: true
+  height: 8
+  width: 10
+tomatillas:
+  title: Tomatillas
+  sold: true
+  height: 9
+  width: 12
+tools_of_the_trade:
+  title: Tools of the Trade
+  sold: true
+  height: 14
+  width: 13
+trellis_tea:
+  title: Trellis Tea
+  sold: true
+  height: 9¾
+  width: 12
+unlocking_the_mysteries:
+  title: Unlocking the Mysteries
+  sold: true
+  height: 12
+  width: 16
+white_african_irises_in_black:
+  title: White African Irises in Black
+  sold: true
+  height: 24
+  width: 8¾
+white_african_irises:
+  title: White African Irises
+  sold: true
+  height: 24
+  width: 12
+white_daisies:
+  title: White Daisies
+  sold: true
+  height: 11
+  width: 12
+white_radiance:
+  title: White Radiance
+  sold: true
+  height: 14
+  width: 11
+youve_been_framed:
+  title: You've Been Framed
+  sold: true
+  height: 16
+  width: 16
+zia_and_peppers:
+  title: Zia and Peppers
+  sold: true
+  height: 6
+  width: 8
