@@ -46,6 +46,11 @@
         }
     });
 
+    $('#filters').on( 'click', 'button', function() {
+      var filterValue = $(this).attr('data-filter');
+        $container.isotope({ filter: filterValue });
+    });
+
     // use value of search field to filter
     var $quicksearch = $('#quicksearch').keyup(debounce(searchFilter));
 

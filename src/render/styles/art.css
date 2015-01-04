@@ -1,3 +1,21 @@
+div.sold {
+    position: relative;
+    display: inline;
+}
+
+div.sold:after {
+    position: absolute;
+    color: #FF0000;
+    content: '';
+    background-color: #FF0000;
+    border-radius: 50%;
+    opacity: 0.75;
+    width: 10px;
+    height: 10px;
+    bottom: 10px;
+    left: 10px;
+}
+
 /* Begin Gallery specific CSS */
 .art {
     float: left;

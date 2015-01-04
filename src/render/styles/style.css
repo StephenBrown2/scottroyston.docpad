@@ -42,6 +42,7 @@ html, body {
   position: fixed;
 }
 #badges {
+  display: none;
   bottom: 0.5%;
   right: 0.5%;
 }
