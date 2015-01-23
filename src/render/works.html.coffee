@@ -18,7 +18,7 @@ associatedFilesPath: 'art'
   for file in @documentModel.getAssociatedFiles().toJSON()
     art = @templateData.art[file.basename]
     art.title = @templateData.getTitleCap(art.title)
-    art.thw = art.title + ': ' + art.height + 'x' + art.width
+    art.thw = art.title + ': ' + art.height + '⨯' + art.width
     soldclass = if art.sold then '.sold' else '.notsold'
     @div '.art'+soldclass, ->
       @div '.wrapper', style: 'width:100%;', ->
