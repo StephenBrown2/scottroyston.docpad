@@ -43,13 +43,32 @@
         sortBy: 'random',
         getSortData: {
             title: '[data-title]',
-        }
+        },
+       // isInitLayout: false
     });
 
-    $('#filters').on( 'click', 'button', function() {
-      var filterValue = $(this).attr('data-filter');
-        $container.isotope({ filter: filterValue });
-    });
+/*elements = [];
+
+    $container.isotope( 'on', 'layoutComplete',
+        function( isoInstance, laidOutItems ) {
+            elements = laidOutItems.map(function(item) {
+                return item.element;
+            })
+            console.log( elements );
+        }
+    );
+*/
+/*
+    $container.isotope( 'on', 'layoutComplete',
+        function( isoInstance, laidOutItems ) {
+            for (var i = 0; i < laidOutItems.length; i++ ) {
+              item = laidOutItems[i];
+              console.log( item['element'] );
+            }
+        }
+    );
+*/
+//    $container.isotope();
 
     // use value of search field to filter
     var $quicksearch = $('#quicksearch').keyup(debounce(searchFilter));
@@ -79,8 +98,14 @@
         }
     }
 
+    $('#filters').on( 'click', 'button', function() {
+      var filterValue = $(this).attr('data-filter');
+        $container.isotope({ filter: filterValue });
+    });
+
 // magnificPopup JS
     $('a.overlay').magnificPopup({
+        delegate: 'a.overlay:not(.isotope-hidden)',
         type:'image',
         image: {
             titleSrc: 'data-title',

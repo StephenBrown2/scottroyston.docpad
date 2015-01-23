@@ -64,6 +64,7 @@ docpadConfig = {
             styles: [
                 '/vendor/normalize.css'
                 '/vendor/h5bp.css'
+                '/vendor/magnific-popup.css'
                 '/styles/style.css'
                 '/styles/art.css'
             ]
@@ -79,6 +80,7 @@ docpadConfig = {
                 '/vendor/log.js'
                 '/vendor/modernizr.js'
                 '/vendor/isotope.js'
+                '/vendor/magnific-popup.js'
                 '/scripts/script.js'
             ]
 
