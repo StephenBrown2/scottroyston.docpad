@@ -216,7 +216,7 @@ homage_to_van_huysum:
   width: 22
 hopi_kachina:
   title: Hopi Kachina
-  sold: false
+  sold: true
   height: 12
   width: 6
 iris_in_black:
@@ -234,6 +234,11 @@ jemez_wedding_vase:
   sold: true
   height: 14
   width: 11
+kachina_harvest:
+  title: Kachina Harvest
+  sold: false
+  height: 14
+  width: 6
 learning_about_shells:
   title: Learning About Shells
   sold: true
@@ -306,7 +311,7 @@ palate_pleasers:
   width: 11
 pansies_and_delfts:
   title: Pansies and Delfts
-  sold: false
+  sold: true
   height: 6
   width: 7
 pansy_pickins:
@@ -386,7 +391,7 @@ shells_under_glass:
   width: 12
 simple_splendor:
   title: Simple Splendor
-  sold: false
+  sold: true
   height: 14
   width: 11
 skylite_cosmo:
