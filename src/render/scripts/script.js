@@ -1,16 +1,5 @@
 /* Your scripts go here */
 
-// Internet Defense League Alert
-    window._idl = {};
-    _idl.variant = "modal";
-    (function() {
-        var idl = document.createElement('script');
-        idl.type = 'text/javascript';
-        idl.async = true;
-        idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'modal');
-        document.getElementsByTagName('body')[0].appendChild(idl);
-    })();
-
 // Pull Nav function for mobile menu
     $(function() {
       var pull    = $('#pull');
