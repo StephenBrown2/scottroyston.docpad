@@ -9,6 +9,11 @@ asian_solitude:
   sold: true
   height: 14
   width: 7
+a_stitch_in_time:
+  title: A Stitch in Time
+  sold: true
+  height: 10
+  width: 8
 a_touch_of_southwest:
   title: A Touch of Southwest
   sold: true
