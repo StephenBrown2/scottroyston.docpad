@@ -1,501 +1,1502 @@
----
-apricots:
+--- 
+a_stitch_in_time: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 10
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "A Stitch in Time"
+  width: 8
+a_touch_of_southwest: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 12
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "A Touch of Southwest"
+  width: 14
+apricots: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 7
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
   title: Apricots
-  sold: true
-  height: 7
   width: 9
-asian_solitude:
-  title: Asian Solitude
-  sold: true
+asian_solitude: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 14
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Asian Solitude"
   width: 7
-a_stitch_in_time:
-  title: A Stitch in Time
-  sold: true
-  height: 10
-  width: 8
-a_touch_of_southwest:
-  title: A Touch of Southwest
-  sold: true
-  height: 12
-  width: 14
-beach_daisies:
-  title: Beach Daisies
-  sold: true
+beach_daisies: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 13
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Beach Daisies"
   width: 8
-beetle_collection:
-  title: Beetle Collection
-  sold: true
+beetle_collection: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 8
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Beetle Collection"
   width: 12
-big_reds:
-  title: Big Reds
-  sold: true
+big_reds: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 7¾
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Big Reds"
   width: 9¾
-birds_of_a_feather:
-  title: Birds of a Feather
-  sold: false
+birds_of_a_feather: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 16
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Birds of a Feather"
   width: 20
-book_and_daisies:
-  title: Book and Daisies
-  sold: true
+book_and_daisies: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 12
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Book and Daisies"
   width: 10
-books_of_knowledge:
-  title: Books of Knowledge
-  sold: true
+books_of_knowledge: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 12
-  width: 10¼
-box_of_cherries:
-  title: Box of Cherries
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Books of Knowledge"
+  width: 10¼
+box_of_cherries: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 10
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Box of Cherries"
   width: 9
-broken:
+broken: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 20¼
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
   title: Broken
-  sold: true
-  height: 20¼
   width: 10
-butterfly_collection:
-  title: Butterfly Collection
-  sold: true
+butterfly_collection: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 23
-  width: 16
-chatter_box:
-  title: Chatter Box
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Butterfly Collection"
+  width: 16
+chatter_box: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 9
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Chatter Box"
   width: 7
-chilis:
+chilis: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 6
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
   title: Chilis
-  sold: false
-  height: 6
   width: 8
-chinese_tulip_magnolias:
-  title: Chinese Tulip Magnolias
-  sold: true
+chinese_tulip_magnolias: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 30
-  width: 24
-circle_of_life:
-  title: Circle of Life
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Chinese Tulip Magnolias"
+  width: 24
+circle_of_life: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 50
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Circle of Life"
   width: 40
-clownin_around:
-  title: Clownin' Around
-  sold: false
+clownin_around: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 8
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Clownin' Around"
   width: 10
-colors_of_freedom:
-  title: Colors of Freedom
-  sold: true
+colors_of_freedom: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 36
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Colors of Freedom"
   width: 24
-concerto_of_petunias:
-  title: Concerto of Petunias
-  sold: true
+concerto_of_petunias: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 24
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Concerto of Petunias"
   width: 20
-cyclamen:
+cyclamen: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 12
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
   title: Cyclamen
-  sold: true
-  height: 12
   width: 18
-daisies_for_lovey:
-  title: Daisies for Lovey
-  sold: true
+daisies_for_lovey: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 18
-  width: 10
-daisies_in_red:
-  title: Daisies in Red
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
-  height: 18
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Daisies for Lovey"
   width: 10
-dark_on_light:
-  title: Dark on Light
-  sold: false
+daisies_in_red: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 18
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Daisies in Red"
+  width: 10
+dark_on_light: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 8
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Dark on Light"
   width: 10
-delft_and_holly:
-  title: Delft and Holly
-  sold: true
+delft_and_holly: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 9
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Delft and Holly"
   width: 7
-delta_fire:
-  title: Delta Fire
-  sold: true
+delta_fire: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 10
-  width: 12
-earth_tones:
-  title: Earth Tones
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Delta Fire"
+  width: 12
+earth_tones: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 12
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Earth Tones"
   width: 12½
-eggs:
+eggs: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 4
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
   title: Eggs
-  sold: true
-  height: 4
   width: 8
-eggs_to_dye_for:
-  title: Eggs to Dye For
-  sold: true
+eggs_to_dye_for: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 13
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Eggs to Dye For"
   width: 18
-equally_yoked:
-  title: Equally Yoked
-  sold: true
+equally_yoked: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 12
-  width: 9
-finding_the_center_of_interest:
-  title: Finding the Center of Interest
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Equally Yoked"
+  width: 9
+finding_the_center_of_interest: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 17
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Finding the Center of Interest"
   width: 14
-floral_for_lovey:
-  title: Floral for Lovey
-  sold: true
+floral_for_lovey: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 20
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Floral for Lovey"
   width: 16
-floral_gardens:
-  title: Floral Gardens
-  sold: true
+floral_gardens: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 24
-  width: 20
-floral_in_niche:
-  title: Floral in Niche
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Floral Gardens"
+  width: 20
+floral_in_niche: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 24
-  width: 20
-from_knowledge_comes_wisdom:
-  title: From Knowledge Comes Wisdom
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Floral in Niche"
+  width: 20
+from_knowledge_comes_wisdom: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 16
-  width: 12
-goin_bananas:
-  title: Goin' Bananas
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "From Knowledge Comes Wisdom"
+  width: 12
+goin_bananas: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 8½
-  width: 8
-going_classical:
-  title: Going Classical
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Goin' Bananas"
+  width: 8
+going_classical: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 12
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Going Classical"
   width: 10¼
-gourds:
+gourds: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 7
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
   title: Gourds
-  sold: false
-  height: 7
   width: 8
-habaneros:
-  title: Habaneros
-  sold: true
+habaneros: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 7¾
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: Habaneros
   width: 9¾
-hands_across_america:
-  title: Hands Across America
-  sold: true
+hands_across_america: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 16
-  width: 20
-hanging_tassels:
-  title: Hanging Tassels
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Hands Across America"
+  width: 20
+hanging_tassels: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 12
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Hanging Tassels"
   width: 9
-he_got_game:
-  title: He Got Game
-  sold: false
+he_got_game: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 26
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "He Got Game"
   width: 22
-hidden_treasures:
-  title: Hidden Treasures
-  sold: true
+hidden_treasures: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 4
-  width: 8
-homage_to_van_huysum:
-  title: Homage To Van Huysum
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Hidden Treasures"
+  width: 8
+homage_to_van_huysum: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 30
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Homage To Van Huysum"
   width: 22
-hopi_kachina:
-  title: Hopi Kachina
-  sold: true
+hopi_kachina: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 12
-  width: 6
-iris_in_black:
-  title: Iris In Black
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Hopi Kachina"
+  width: 6
+iris_in_black: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 36
-  width: 12
-its_tea_time:
-  title: It's Tea Time
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
-  height: 13 <sup>13</sup>⁄<sub>16</sub>
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Iris In Black"
+  width: 12
+its_tea_time: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: "13 <sup>13</sup>⁄<sub>16</sub>"
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "It's Tea Time"
   width: 16
-jemez_wedding_vase:
-  title: Jemez Wedding Vase
-  sold: true
+jemez_wedding_vase: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 14
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Jemez Wedding Vase"
   width: 11
-kachina_harvest:
-  title: Kachina Harvest
-  sold: false
+kachina_harvest: 
+  awards: ~
+  completed_date: 2015-01-15
+  galleries: ~
   height: 14
-  width: 6
-learning_about_shells:
-  title: Learning About Shells
-  sold: true
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: "kachina, harvest, doll, corn, maize"
+  technique: ~
+  title: "Kachina Harvest"
+  width: 11
+learning_about_shells: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 16
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Learning About Shells"
   width: 20
-lemon_twist:
-  title: Lemon Twist
-  sold: true
+lemon_twist: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 12
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Lemon Twist"
   width: 7¾
-life_and_literature:
-  title: Life and Literature
-  sold: true
+life_and_literature: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 9
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Life and Literature"
   width: 12
-lil_woven_treasure:
-  title: Li'l Woven Treasure
-  sold: true
+lil_woven_treasure: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 6
-  width: 8
-love_bug:
-  title: Love Bug
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Li'l Woven Treasure"
+  width: 8
+love_bug: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 6¾
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Love Bug"
   width: 3¾
-marble_box:
-  title: Marble Box
-  sold: true
+marble_box: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 7
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Marble Box"
   width: 7½
-masking_sadness:
-  title: Masking Sadness
-  sold: true
+masking_sadness: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 12
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Masking Sadness"
   width: 31
-memoirs_of_a_dutch_master:
-  title: Memoirs of a Dutch Master
-  sold: true
+memoirs_of_a_dutch_master: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 24
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Memoirs of a Dutch Master"
   width: 20
-moccasins:
+moccasins: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 8
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
   title: Moccasins
-  sold: true
-  height: 8
   width: 8
-mussels:
+mussels: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 16
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
   title: Mussels
-  sold: true
-  height: 16
   width: 14
-mystery_of_the_dancing_men:
-  title: Mystery Of The Dancing Men
-  sold: true
+mystery_of_the_dancing_men: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 22
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Mystery Of The Dancing Men"
   width: 32
-nampeyo:
-  title: Nampeyo
-  sold: false
+nampeyo: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 7
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: Nampeyo
   width: 9
-pairs:
+pairs: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 6
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
   title: Pairs
-  sold: true
-  height: 6
   width: 12
-palate_pleasers:
-  title: Palate Pleasers
-  sold: true
+palate_pleasers: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 12
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Palate Pleasers"
   width: 11
-pansies_and_delfts:
-  title: Pansies and Delfts
-  sold: true
+pansies_and_delfts: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 6
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Pansies and Delfts"
   width: 7
-pansy_pickins:
-  title: Pansy Pickin's
-  sold: true
+pansy_pickins: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 10
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Pansy Pickin's"
   width: 12
-pepper_basket:
-  title: Pepper Basket
-  sold: true
+pepper_basket: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 10
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Pepper Basket"
   width: 10
-petunias:
+petunias: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 12
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
   title: Petunias
-  sold: true
-  height: 12
   width: 9
-polychrome_basket:
-  title: Polychrome Basket
-  sold: true
+polychrome_basket: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 9
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Polychrome Basket"
   width: 12
-propitiation:
+propitiation: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 20
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
   title: Propitiation
-  sold: false
-  height: 20
   width: 12
-red_beauties:
-  title: Red Beauties
-  sold: true
+red_beauties: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 20¼
-  width: 10
-reflections_of_childhood:
-  title: Reflections of Childhood
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Red Beauties"
+  width: 10
+reflections_of_childhood: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 24
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Reflections of Childhood"
   width: 20
-regular_or_decaf:
-  title: Regular or Decaf
-  sold: true
+regular_or_decaf: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 10
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Regular or Decaf"
   width: 10½
-rose_of_sharon:
-  title: Rose of Sharon
-  sold: true
+rose_of_sharon: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 6
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Rose of Sharon"
   width: 6
-roses:
+roses: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 12
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
   title: Roses
-  sold: true
-  height: 12
   width: 10
-sea_shell_cabinet:
-  title: Sea Shell Cabinet
-  sold: true
+sea_shell_cabinet: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 19½
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Sea Shell Cabinet"
   width: 31½
-sea_shells:
-  title: Sea Shells
-  sold: true
+sea_shells: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 15
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Sea Shells"
   width: 13
-shallots:
+shallots: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 9¾
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
   title: Shallots
-  sold: false
-  height: 9¾
   width: 7¾
-shell_and_grapes:
-  title: Shell and Grapes
-  sold: false
+shell_and_grapes: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 6½
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Shell and Grapes"
   width: 9½
-shells_under_glass:
-  title: Shells under Glass
-  sold: true
+shells_under_glass: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 15⅜
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Shells under Glass"
   width: 12
-simple_splendor:
-  title: Simple Splendor
-  sold: true
+simple_splendor: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 14
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Simple Splendor"
   width: 11
-skylite_cosmo:
-  title: Skylite Cosmo
-  sold: true
+skylite_cosmo: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 12
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Skylite Cosmo"
   width: 8
-southwest_white_iris:
-  title: Southwest White Iris
-  sold: true
+southwest_white_iris: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 24
-  width: 13
-spring_elegance:
-  title: Spring Elegance
-  sold: false
-  height: 20
-  width: 10
-strings_attached:
-  title: Strings Attached
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Southwest White Iris"
+  width: 13
+spring_elegance: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 20
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Spring Elegance"
+  width: 10
+strings_attached: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 20
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Strings Attached"
   width: 14
-summertime_thirst_quencher:
-  title: Summertime Thirst Quencher
-  sold: true
+summertime_thirst_quencher: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 19
-  width: 16
-sunny_side_up:
-  title: Sunny Side Up
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Summertime Thirst Quencher"
+  width: 16
+sunny_side_up: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 9
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Sunny Side Up"
   width: 7
-tassel_trio:
-  title: Tassel Trio
-  sold: true
+tassel_trio: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 12¾
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Tassel Trio"
   width: 8½
-tea_setting:
-  title: Tea Setting
-  sold: true
+tea_setting: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 18
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Tea Setting"
   width: 12
-thats_a_bingo:
-  title: That's a Bingo
-  sold: false
+thats_a_bingo: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 13
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "That's a Bingo"
   width: 10¾
-the_giving_tree:
-  title: The Giving Tree
-  sold: true
+the_giving_tree: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 8
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "The Giving Tree"
   width: 10
-tomatillas:
-  title: Tomatillas
-  sold: true
+tomatillas: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 9
-  width: 12
-tools_of_the_trade:
-  title: Tools of the Trade
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: Tomatillas
+  width: 12
+tools_of_the_trade: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 14
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Tools of the Trade"
   width: 13
-trellis_tea:
-  title: Trellis Tea
-  sold: true
+trellis_tea: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 9¾
-  width: 12
-unlocking_the_mysteries:
-  title: Unlocking the Mysteries
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Trellis Tea"
+  width: 12
+unlocking_the_mysteries: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 12
-  width: 16
-white_african_irises_in_black:
-  title: White African Irises in Black
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Unlocking the Mysteries"
+  width: 16
+white_african_irises: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 24
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "White African Irises"
+  width: 12
+white_african_irises_in_black: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
+  height: 24
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "White African Irises in Black"
   width: 8¾
-white_african_irises:
-  title: White African Irises
-  sold: true
-  height: 24
-  width: 12
-white_daisies:
-  title: White Daisies
-  sold: true
+white_daisies: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 11
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "White Daisies"
   width: 12
-white_radiance:
-  title: White Radiance
-  sold: true
+white_radiance: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 14
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "White Radiance"
   width: 11
-youve_been_framed:
-  title: You've Been Framed
-  sold: true
+youve_been_framed: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 16
-  width: 16
-zia_and_peppers:
-  title: Zia and Peppers
+  material: ~
+  medium: ~
+  shows: ~
   sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "You've Been Framed"
+  width: 16
+zia_and_peppers: 
+  awards: ~
+  completed_date: ~
+  galleries: ~
   height: 6
+  material: ~
+  medium: ~
+  shows: ~
+  sold: true
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Zia and Peppers"
   width: 8
+
