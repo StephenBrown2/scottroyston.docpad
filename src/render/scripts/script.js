@@ -23,17 +23,18 @@
     var $container = $('.isotope'),
         qsRegex,
         filters = {};
+
     $container.isotope({
         itemSelector: '.art',
         masonry: {
             columnWidth: '.grid-sizer',
             gutter: '.gutter-sizer',
         },
-        sortBy: 'random',
+        sortBy: 'title',
         getSortData: {
             title: '[data-title]',
         },
-       // isInitLayout: false
+        isInitLayout: false
     });
 
 /*elements = [];
@@ -93,8 +94,8 @@
     });
 
 // magnificPopup JS
-    $('a.overlay').magnificPopup({
-        delegate: 'a.overlay:not(.isotope-hidden)',
+    $('.wrapper').magnificPopup({
+        delegate: 'a.overlay:visible',
         type:'image',
         image: {
             titleSrc: 'data-title',
@@ -111,3 +112,9 @@
             }
         },*/
     });
+
+$(window).load(function(){
+   $container.isotope({
+      isInitLayout: true
+   });
+});
