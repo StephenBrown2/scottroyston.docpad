@@ -13,7 +13,7 @@
     "docpad-plugin-coffeemugg": "~2.0.2",
     "docpad-plugin-copy": "~2.1.0",
     "docpad-plugin-data": "StephenBrown2/docpad-plugin-data#npm-package",
-    "docpad-plugin-eco": "~2.1.0",
+    "docpad-plugin-ect": "~2.0.1",
     "docpad-plugin-ghpages": "~2.4.4",
     "docpad-plugin-imagin": "~2.0.2",
     "docpad-plugin-marked": "~2.3.0",
