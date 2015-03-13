@@ -20,7 +20,7 @@
     "title-capitalization": "~0.0.1"
   },
   "devDependencies": {
-    "docpad-plugin-livereload": "~2.6.0"
+    "docpad-plugin-livereload": "~2.6.1"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
