@@ -16,6 +16,18 @@ div.sold:after {
     left: 10px;
 }
 
+/* Begin Legacy Gallery CSS */
+div#gallery {
+  margin: 0 auto;
+}
+
+div.oldart {
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    text-align: center;
+}
+
 /* Begin Gallery specific CSS */
 .art {
     float: left;

@@ -1,7 +1,8 @@
 ---
 layout: content
 title: Works
-topNav: true
+topNav: false
+future: true
 order: 4
 associatedFilesPath: 'art'
 ---
@@ -11,6 +12,8 @@ associatedFilesPath: 'art'
   @button 'data-filter': ".sold", 'sold'
   @button 'data-filter': ".notsold", 'new works'
   @input '#quicksearch', type: 'text', placeholder: 'Search Paintings'
+
+@br ->
 
 @div '.isotope', ->
   @div '.grid-sizer', ->

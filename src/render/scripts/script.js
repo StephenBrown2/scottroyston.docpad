@@ -104,13 +104,14 @@
             enabled: true,
             preload: [1,2],
         },
-        /*disableOn: function() {
-            if( $(window).width() < 480 ) {
-                return false;
-            } else {
-                return true;
-            }
-        },*/
+    });
+
+    $('.oldwrapper a.old').magnificPopup({
+        type:'image',
+        gallery: {
+            enabled: true,
+            preload: [1,2],
+        },
     });
 
 $(window).load(function(){
