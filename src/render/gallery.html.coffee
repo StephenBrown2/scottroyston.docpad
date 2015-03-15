@@ -26,7 +26,7 @@ if @document.newstyle
             @a '.overlay', href: file.url, 'data-title': "<a href='#{file.url}'>#{art.thw}</a>", ->
               @h3 '.title', art.title
               @div '.description', ->
-                @p -> art.thw
+                @p -> @raw art.thw
 else
   @div '#gallery', class: 'js-isotope', 'data-isotope-options': '{ "itemSelector": ".oldart", "masonry": { "columnWidth": 250 } }', ->
     for file in @documentModel.getAssociatedFiles().toJSON()
@@ -42,4 +42,4 @@ else
             @a href: file.url, style: 'color: black; text-decoration:none;', ->
               art.title
           @br ->
-          art.height + ' ⨯ ' + art.width
+          @raw art.height + ' ⨯ ' + art.width

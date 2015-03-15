@@ -32,4 +32,4 @@ associatedFilesPath: 'art'
         @a '.overlay', href: file.url, 'data-title': "<a href='#{file.url}'>#{art.thw}</a>", ->
           @h3 '.title', art.title
           @div '.description', ->
-            @p -> art.thw
+            @p -> @raw art.thw
