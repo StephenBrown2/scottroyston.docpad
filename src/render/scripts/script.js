@@ -30,35 +30,14 @@
             columnWidth: '.grid-sizer',
             gutter: '.gutter-sizer',
         },
-        sortBy: 'title',
+        sortBy: 'sdate',
+        sortAscending: false,
         getSortData: {
             title: '[data-title]',
+            sdate: '[data-sort-date]',
         },
         isInitLayout: false
     });
-
-/*elements = [];
-
-    $container.isotope( 'on', 'layoutComplete',
-        function( isoInstance, laidOutItems ) {
-            elements = laidOutItems.map(function(item) {
-                return item.element;
-            })
-            console.log( elements );
-        }
-    );
-*/
-/*
-    $container.isotope( 'on', 'layoutComplete',
-        function( isoInstance, laidOutItems ) {
-            for (var i = 0; i < laidOutItems.length; i++ ) {
-              item = laidOutItems[i];
-              console.log( item['element'] );
-            }
-        }
-    );
-*/
-//    $container.isotope();
 
     // use value of search field to filter
     var $quicksearch = $('#quicksearch').keyup(debounce(searchFilter));
@@ -101,7 +80,7 @@
             titleSrc: 'data-title',
         },
         gallery: {
-            enabled: true,
+            enabled: false,
             preload: [1,2],
         },
     });

@@ -23,7 +23,9 @@ associatedFilesPath: 'art'
     art.title = @templateData.getTitleCap(art.title)
     art.thw = art.title + ': ' + art.height + '⨯' + art.width
     soldclass = if art.sold then '.sold' else '.notsold'
-    @div '.art'+soldclass, ->
+    completedDate = @templateData.moment(art.completed_date).format("YYYY-MM-DD")
+    sortDate = @templateData.moment(art.sold_date or art.completed_date).format("YYYY-MM-DD")
+    @div '.art'+soldclass, 'data-sort-date': sortDate, ->
       @div '.wrapper', style: 'width:100%;', ->
         @div soldclass, ->
           @img '.image', alt: art.thw, src: @templateData.getThumbnail(file.url, 'medium')
