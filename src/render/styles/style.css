@@ -79,6 +79,7 @@ html, body {
 }
 .bigtext, .gallerylogo {
   max-width: 100%;
+  text-align: center;
 }
 .scaled, header, nav ul li a:hover:before, nav ul li.active a:before, nav a#pull {
   width: 100%;
