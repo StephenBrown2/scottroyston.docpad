@@ -19,6 +19,21 @@
         });
     });
 
+// Legacy Isotope JS
+    var $oldcontainer = $('.oldisotope');
+
+    $oldcontainer.isotope({
+        itemSelector: '.oldart',
+        masonry: {
+            columnWidth: 250,
+        },
+        sortBy: 'sdate',
+        sortAscending: false,
+        getSortData: {
+            sdate: '[data-sort]',
+        },
+    });
+
 // Isotope JS
     var $container = $('.isotope'),
         qsRegex,

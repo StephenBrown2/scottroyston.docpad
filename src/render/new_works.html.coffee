@@ -26,15 +26,16 @@ if @document.newstyle
               @div '.description', ->
                 @p -> @raw art.thw
 else
-  @div '#gallery', class: 'js-isotope', 'data-isotope-options': '{ "itemSelector": ".oldart", "masonry": { "columnWidth": 250 } }', ->
+  @div '.oldisotope', ->
     for file in @documentModel.getAssociatedFiles().toJSON()
       art = @templateData.art[file.basename]
       art.title = @templateData.getTitleCap(art.title)
       art.thw = art.title + ': ' + art.height + ' ⨯ ' + art.width
+      sortDate = @templateData.moment(art.sold_date or art.completed_date).format("YYYY-MM-DD")
       if ! art.sold
-        @div '.oldart .oldwrapper', ->
+        @div '.oldart .oldwrapper', 'data-sort': sortDate, ->
           @a href: file.url, class: 'old', title: art.thw, ->
-            @img src: @templateData.getThumbnail(file.url, { w: 144, h: 144 })
+            @img src: @templateData.getThumbnail(file.url, { h: 144 })
           @br ->
           @strong ->
             @a href: file.url, style: 'color: black; text-decoration:none;', ->
