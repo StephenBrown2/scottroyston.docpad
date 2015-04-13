@@ -82,6 +82,9 @@ docpadConfig = {
                 '/vendor/isotope.js'
                 '/vendor/magnific-popup.js'
                 '/scripts/script.js'
+                """
+                <script type="text/javascript" src="http://fast.fonts.net/jsapi/284357ea-8af4-47b5-a9a2-17a97640ed1b.js"></script>
+                """
             ]
 
             themeBgColor: "#498283"
