@@ -28,29 +28,48 @@ grouped: false
 <% uniqShowYears = removeDuplicates(showYears).sort (a, b) -> b - a %>
 <dl>
 <% if @document.grouped: %>
-<% for year in uniqShowYears: %>
-  <% if (uniqShowYears.indexOf(year) > 0): %>
+  <% for year in uniqShowYears: %>
     <dt><%= year %> Shows:</dt>
     <% for g in (item for item in sortedShows when item.dateBegin.getFullYear() is year): %>
       <dd><%= g.aventName %>, <%= g.venue %><% if g.venueCity?: %>, <%= g.venueCity %>, <%= g.venueState %><% end %></dd>
+    <% end %>
   <% end %>
-<% end %>
-<% end %>
 <% else: %>
-<% for g in sortedShows: %>
-  <dt><%= g.dateBegin.getFullYear() %></dt>
-  <dd><%= g.aventName %>, <%= g.venue %><% if g.venueCity?: %>, <%= g.venueCity %>, <%= g.venueState %><% end %></dd>
-<% end %>
-<% end %>
+  <% for g in sortedShows: %>
+    <dt><%= g.dateBegin.getFullYear() %></dt>
+    <dd><%= g.aventName %>, <%= g.venue %><% if g.venueCity?: %>, <%= g.venueCity %>, <%= g.venueState %><% end %></dd>
+  <% end %>
 <% end %>
 </dl>
 
 <h2>Awards</h2>
 <% sortedAwards = @awards.sort (a, b) -> b.date - a.date %>
-<dl>
+<% awardYears = (item.date.getFullYear() for item in sortedAwards) %>
+<% uniqAwardYears = removeDuplicates(awardYears).sort (a, b) -> b - a %>
 <% for a in sortedAwards: %>
-  <dt><%= a.date.getFullYear() %></dt>
-  <dd><%= a.award %>, <% if a.website?: %><a href="<%- a.website %>"><% end %><%- a.event %><% if a.website?: %></a><% end %><% if a.sponsor?: %>, <%= a.sponsor %><% end %></dd>
+  <% a.awardString = a.award + ', ' %>
+  <% if a.website?: %>
+    <% a.awardString += '<a href="' + a.website + '">' + a.event + '</a>' %>
+  <% else: %>
+    <% a.awardString += a.event %>
+  <% end %>
+  <% if a.sponsor?: %>
+    <% a.awardString += ', ' + a.sponsor %>
+  <% end %>
+<% end %>
+<dl>
+<% if @document.grouped: %>
+  <% for year in uniqAwardYears: %>
+    <dt><%= year %> Awards:</dt>
+    <% for a in (item for item in sortedAwards when item.date.getFullYear() is year): %>
+      <dd><%- a.awardString %></dd>
+    <% end %>
+  <% end %>
+<% else: %>
+  <% for a in sortedAwards: %>
+    <dt><%= a.date.getFullYear() %></dt>
+    <dd><%- a.awardString %></dd>
+  <% end %>
 <% end %>
 </dl>
 
@@ -66,16 +85,27 @@ grouped: false
 <h2>Corporate and Private Collections</h2>
 <ul>
 <% for c in @collections: %>
-  <li><%= c.collection %>, <%= c.city %>, <%= c.state %>.</li>
+  <li class="collection"><%= c.collection %>, <%= c.city %>, <%= c.state %>.</li>
 <% end %>
 </ul>
 
 <h2>Bibliography</h2>
 <% sortedBib = @bibliography.sort (a, b) -> b.date - a.date %>
+<% bibYears = (item.date.getFullYear() for item in sortedBib) %>
+<% uniqBibYears = removeDuplicates(bibYears).sort (a, b) -> b - a %>
 <dl>
-<% for b in sortedBib: %>
-  <dt><%= b.date.getFullYear() %></dt>
-  <dd><%- b.citation %></dd>
+<% if @document.grouped: %>
+  <% for year in uniqBibYears: %>
+    <dt><%= year %> Works:</dt>
+      <% for b in (item for item in sortedBib when item.date.getFullYear() is year): %>
+        <dd><%- b.citation %></dd>
+      <% end %>
+  <% end %>
+<% else: %>
+  <% for b in sortedBib: %>
+    <dt><%= b.date.getFullYear() %></dt>
+    <dd><%- b.citation %></dd>
+  <% end %>
 <% end %>
 </dl>
 

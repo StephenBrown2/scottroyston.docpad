@@ -6,6 +6,7 @@ order: 7
 ---
 
 What's To Come:
+---------------
 
 * Scott's piece 'Simple Splendor' was accepted into the 100th Anniversary of America at the prestigious Salmagundi Club in New York.
 * His piece 'He Got Game' was accepted into this year's OPA Eastern Regional Juried Show, at the Eisele Gallery in Cincinnati, OH.
