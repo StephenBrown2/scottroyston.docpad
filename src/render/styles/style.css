@@ -1,6 +1,8 @@
 /* Your styles go here */
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:700);
+
 html, body {
+  font-family: serif;
   height: 100%;
 }
 .front {
@@ -83,6 +85,10 @@ html, body {
 }
 .scaled, header, nav ul li a:hover:before, nav ul li.active a:before, nav a#pull {
   width: 100%;
+}
+.oldisotope, .isotope {
+  font-family: Arial, sans-serif;
+  font-size: 15px;
 }
 header {
   height: auto;
