@@ -83,6 +83,11 @@ html, body {
   max-width: 100%;
   text-align: center;
 }
+.bigtext {
+  font-size: 22pt;
+  font-weight: bold;
+  line-height: 1;
+}
 .scaled, header, nav ul li a:hover:before, nav ul li.active a:before, nav a#pull {
   width: 100%;
 }
@@ -94,6 +99,13 @@ header {
   height: auto;
   z-index: 1;
   top: 0px;
+}
+h2 {
+  text-decoration: underline;
+  font-weight: normal;
+}
+li.collection {
+  list-style: none;
 }
 body {
   background-color: #ECE8E5;
