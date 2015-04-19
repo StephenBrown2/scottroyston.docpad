@@ -1139,6 +1139,21 @@ sea_shells:
   technique: ~
   title: "Sea Shells"
   width: 13
+sewing_box: 
+  awards: ~
+  completed_date: 2015-04-19
+  galleries: ~
+  height: 10
+  material: ~
+  medium: ~
+  shows: ~
+  sold: false
+  sold_date: ~
+  sold_price: ~
+  subject: ~
+  technique: ~
+  title: "Sewing Box"
+  width: 8
 shallots: 
   awards: ~
   completed_date: 1970-01-08
