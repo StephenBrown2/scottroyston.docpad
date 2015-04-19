@@ -1967,3 +1967,82 @@
   venueState: CO
   venueTZip: "80206"
   venueUrl: "http://abendgallery.com"
+- 
+  aventName: "31st Annual Juried National Show"
+  aventTitle: ~
+  aventUrl: "http://www.nval.org/2015_National_Show.html"
+  dateBegin: 2015-01-29
+  dateEnd: 2014-02-28
+  keywords: 
+    - annual
+    - juried
+    - national
+  sponsor: "North Valley Art League"
+  sponsorUrl: "http://www.nval.org"
+  venue: "Carter House Gallery"
+  venueAddress: "48 Quartz Hill Road"
+  venueCity: Redding
+  venueState: CA
+  venueTZip: "96003"
+  venueUrl: "http://www.nval.org"
+- 
+  aventName: "The Richeson75Online: Still Life and Floral Competition"
+  aventTitle: "Still Life and Floral 2015"
+  aventUrl: "http://richeson75.com/prospectus/r75onlineslf2015.pdf"
+  dateBegin: 2015-05-18
+  dateEnd: -
+  keywords: 
+    - competition
+  sponsor: "Jack Richeson & Co., Inc."
+  sponsorUrl: "http://www.richesonart.com"
+  venue: "Richeson School of Art and Gallery"
+  venueAddress: "557 Marcella Street"
+  venueCity: Kimberly
+  venueState: WI
+  venueTZip: "54136"
+  venueUrl: "http://www.richesonart.com"
+- 
+  aventName: "International Guild of Realism Masterworks Museum Tour - Shreveport, LA"
+  aventTitle: "Masterworks From The International Guild Of Realism"
+  aventUrl: "http://www.realismguild.com/CurrentExhibitions.html"
+  dateBegin: 2015-05-19
+  dateEnd: 2015-06-26
+  keywords: 
+  sponsor: "The International Guild of Realism"
+  sponsorUrl: "http://www.realismguild.com"
+  venue: "The R.W. Norton Art Gallery"
+  venueAddress: "4747 Creswell Ave"
+  venueCity: Shreveport
+  venueState: LA
+  venueTZip: "71106"
+  venueUrl: "http://www.rwnaf.org"
+- 
+  aventName: "International Guild of Realism Masterworks Museum Tour - Ocala, FL"
+  aventTitle: "Masterworks From The International Guild Of Realism"
+  aventUrl: "http://www.realismguild.com/CurrentExhibitions.html"
+  dateBegin: 2015-09-01
+  dateEnd: 2015-10-31
+  keywords: 
+  sponsor: "The International Guild of Realism"
+  sponsorUrl: "http://www.realismguild.com"
+  venue: "Appleton Museum of Art"
+  venueAddress: "4333 E Silver Springs Blvd"
+  venueCity: Ocala
+  venueState: FL
+  venueTZip: "34470"
+  venueUrl: "http://www.appletonmuseum.org"
+- 
+  aventName: "International Guild of Realism Masterworks Museum Tour - Albany, GA"
+  aventTitle: "Masterworks From The International Guild Of Realism"
+  aventUrl: "http://www.realismguild.com/CurrentExhibitions.html"
+  dateBegin: 2016-02-06
+  dateEnd: 2016-06-11
+  keywords: 
+  sponsor: "The International Guild of Realism"
+  sponsorUrl: "http://www.realismguild.com"
+  venue: "Albany Museum of Art"
+  venueAddress: "311 Meadowlark Dr"
+  venueCity: Albany
+  venueState: GA
+  venueTZip: "31707"
+  venueUrl: "http://www.albanymuseum.com"
