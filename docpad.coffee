@@ -27,6 +27,14 @@ docpadConfig = {
         ghpages:
             deployRemote: 'origin'
             deployBranch: 'dploy'
+        repocloner:
+            repos: [
+                name: 'HTML5 Boilerplate'
+                path: 'src/static/vendor/h5bp'
+                branch: 'master'
+                remote: 'https://github.com/h5bp/html5-boilerplate.git'
+            ]
+
 
     # =================================
     # Template Data
@@ -77,7 +85,7 @@ docpadConfig = {
                 <script>window.jQuery || document.write('<script type="text/javascript" src="/vendor/jquery.js"><\\/script>')</script>
                 """
 
-                '/vendor/log.js'
+                '/vendor/h5bp-plugins.js'
                 '/vendor/modernizr.js'
                 '/vendor/isotope.js'
                 '/vendor/magnific-popup.js'

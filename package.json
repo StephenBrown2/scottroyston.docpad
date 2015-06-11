@@ -17,6 +17,7 @@
     "docpad-plugin-imagin": "~2.0.2",
     "docpad-plugin-marked": "~2.3.0",
     "docpad-plugin-moment": "~2.0.2",
+    "docpad-plugin-repocloner": "~2.2.2",
     "title-capitalization": "~0.0.1"
   },
   "devDependencies": {
