@@ -8,10 +8,9 @@ order: 7
 What's To Come:
 ---------------
 
-* Two of Scott's pieces were accepted into this year's Annual National Painting Show with the North Valley Art League. His 'Propitiation' and 'He Got Game' were chosen. His Propitiation piece won 1st Place.
-* The Stars & Stripes Book that Scott was chosen by invitation only to be a part of will be coming out in the later part of May. Scott will have 2-3 works published in it.
-* Scott had six pieces accepted into this year's Richeson75: Online Still Life and Floral 2015 Competition. Awards will be given out in May.
-* Scott will be giving a Still Life workshop at Plaza Art in Towson. It will be on Saturday, April 25th from 1-4pm. Please sign up as spots are still available at [www.plazaart.com](http://www.plazaart.com/classes-workshops-towson/).
+* Scott will be in this year's 10 Annual Exhibition hosted by the International Guild of Realism at the Principle Gallery in historic Alexandria, VA. His piece Birds of a Feather was accepted.
+* Earlier in May the book entitled Stars & Stripes: The American Flag in Contemporary Art was published. Now a show has been given to commemorate this  beautiful book called Stars & Stripes: Zenith Salutes the Flag! which is a huge prestigious Exhibition of the artists who were published in the book. Scott's piece Colors of Freedom will be present at both the Zenith Gallery as well as the prestigious DC Chamber of Commerce.
+* Scott's piece Nampeyo Pot was chosen to be accepted into this year's Salon Show hosted by the Oil Painter's of America at the beautiful Beverly Mc Neil Gallery in Alabama.
 * Scott was accepted to be part of a museum tour with the International Guild of Realism. His piece 'Propitiation' is one of 72 works that will be displayed.
 * No doubt, one of Scott's most decorated opportunities of his career, he was also accepted and invited by the Allied Artists of America to be an Elected Member, which is the highest level of membership. A great honor, this allows the artist to bypass the jury process every other year for their Annual Shows, hold office in the organization, and display works on their website.
 * His Floral Painting DVD is out! It is $55. plus $5. for shipping. It runs 2 hrs 27 mins long.

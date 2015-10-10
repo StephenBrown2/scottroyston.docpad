@@ -2046,3 +2046,51 @@
   venueState: GA
   venueTZip: "31707"
   venueUrl: "http://www.albanymuseum.com"
+- 
+  aventName: "10th Annual Juried Exhibition"
+  aventTitle: "10th Annual International Juried Exhibition"
+  aventUrl: "http://www.realismguild.com/CurrentExhibitions.html"
+  dateBegin: 2015-08-18
+  dateEnd: 2015-09-18
+  keywords: 
+    - annual
+    - juried
+    - exhibition
+  sponsor: "International Guild of Realism"
+  sponsorUrl: "http://www.realismguild.com"
+  venue: "Principle Gallery"
+  venueAddress: "208 King St"
+  venueCity: Alexandria
+  venueState: VA
+  venueTZip: "22314"
+  venueUrl: "http://www.principlegallery.com/alexandria"
+- 
+  aventName: "Stars & Stripes: Zenith Salutes The Flag!"
+  aventTitle: "The American Flag in Contemporary Art"
+  aventUrl: "http://www.zenithgallery.com/shows/2015/IRIS%20ST/STARS%20AND%20STRIIPES/STARS.n.%20STRIPES_Index..htm"
+  dateBegin: 2015-07-09
+  dateEnd: 2015-10-09
+  keywords: 
+  sponsor: ~
+  sponsorUrl: ~
+  venue: "Zenith Gallery"
+  venueAddress: "1429 Iris Street NW"
+  venueCity: Washington
+  venueState: DC
+  venueTZip: "20012"
+  venueUrl: "http://www.zenithgallery.com"
+- 
+  aventName: "2nd Annual Oil Painters of America Salon Show"
+  aventTitle: "2015 Juried Salon Show"
+  aventUrl: "http://www.oilpaintersofamerica.com/events/exhibitions/2015/salon/index.cfm"
+  dateBegin: 2015-10-08
+  dateEnd: 2015-11-05
+  keywords: 
+  sponsor: "Oil Painters of America"
+  sponsorUrl: "http://www.oilpaintersofamerica.com"
+  venue: "Beverly McNeil Gallery"
+  venueAddress: "605 28th St S"
+  venueCity: Birmingham
+  venueState: AL
+  venueTZip: "35233"
+  venueUrl: "http://www.beverlymcneilgallery.com"
